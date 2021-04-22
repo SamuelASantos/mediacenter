@@ -1,0 +1,396 @@
+<html>
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,user-scalable=0" /> <!--A LARGURA DO MEU SITE TERÁ A LARGURA DO DISPOSITIVO; O USUÁRIO NÃO PODERÁ DAR ZOOM-->
+
+<link rel="stylesheet" type="text/css" href="assets/css/template.css" /> <!--LINK PARA O CSS-->
+
+<!--SCRIPT PARA APARECER O MENU QUANDO FOR MOBILE-->
+<script type="text/javascript"> 
+window.onload = function(){
+	document.querySelector(".menuMobile").addEventListener("click", function(){
+		if(document.querySelector(".menu nav ul").style.display == 'flex') {
+			document.querySelector(".menu nav ul").style.display = 'none';
+		} else {
+			document.querySelector(".menu nav ul").style.display = 'flex';
+		}
+	});
+};
+</script>
+
+<title>MediCenter</title> <!--TÍTULO QUE FICA NA ABA DO SITE-->
+
+</head>
+<body>
+
+<!--CABEÇALHO-->
+<header> 
+	<div class="container">
+		<div class="logo">
+			<a href=""><img src="assets/images/logo.png" /></a>
+		</div>
+		<div class="menu">
+			<nav>
+				<div class="menuMobile">
+					<div class="mm_line"></div>
+					<div class="mm_line"></div>
+					<div class="mm_line"></div>
+				</div>
+				<ul>
+					<li class="active"><a href="">HOME</a></li>
+					<li><a href="">BLOG</a></li>
+					<li><a href="">PÁGINAS</a></li>
+					<li><a href="">DEPARTAMENTOS</a></li>
+					<li><a href="">CALENDÁRIO</a></li>
+					<li><a href="">GALERIA</a></li>
+					<li><a href="">CONTATO</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+
+<!--SEÇÃO; UM SITE PODE TER VÁRIAS SEÇÕES-->
+<section id="banner">
+	<div class="container column">
+		<div class="banner_headline">
+			<h1>Experiência de Alto Nível</h1>
+			<h2>Medicenter é um modelo responsivo perfeito para todos os tamanhos de tela</h2>
+		</div>
+		<div class="banner_options">
+			<div class="banner1">
+				<div class="banner_title">Caso de Emergência</div>
+				<div class="banner_desc">Se você precisa de um médico com urgência fora do horário de funcionamento do MediCenter, ligue para o número de emergência e marque uma consulta para um serviço emergencial.</div>
+				<a href="">Leia Mais</a>
+			</div>
+			<div class="banner2">
+				<div class="banner_title">Horário dos Médicos</div>
+				<div class="banner_desc">Aqui na medicenter temos a lista de médicos individuais. Clique em leia mais abaixo para ver os serviços e o calendário atual de nossos médicos.</div>
+				<a href="">Leia Mais</a>
+			</div>
+			<div class="banner3">
+				<div class="banner_title">Horário de Funcionamento</div>
+				<div class="banner_desc">
+					<div class="banner_desc_date_hours">
+						<div>Segunda - Sexta</div> <div>8:00 - 17:00</div>
+					</div>
+					<div class="banner_desc_date_hours">
+						<div>Sábado</div> <div>9:30 - 17:30</div>
+					</div>
+					<div class="banner_desc_date_hours">
+						<div>Domingo</div> <div>9:30 - 15:00</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- SEÇÃO DO CONTEÚDO GERAL -->
+<section id="geral">
+	<div class="container">
+		<section>
+			<div class="widget">
+				<div class="widget_title">
+					<div class="widget_title_text">Últimas Notícias</div>
+					<div class="widget_title_bar"></div>
+				</div>
+				<div class="widget_body flex">
+						
+					<article>
+						<a href="">
+							<div class="news_data">
+								<div class="news_posted_at">21 ABR 21</div>
+								<div class="news_comments">2</div>
+							</div>
+							<div class="news_thumbnail">
+								<img src="assets/images/dr.jpg" />
+							</div>
+							<div class="news_title">
+								Lorem ipsum dolor sit amat velum
+							</div>
+							<div class="news_resume">
+								É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao examinar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, ao contrário de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um português legível.
+								É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao examinar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, ao contrário de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um português legível.
+							</div>
+						</a>
+					</article>
+
+					<article>
+						<a href="">
+							<div class="news_data">
+								<div class="news_posted_at">21 ABR 21</div>
+								<div class="news_comments">2</div>
+							</div>
+							<div class="news_thumbnail">
+								<img src="assets/images/dr.jpg" />
+							</div>
+							<div class="news_title">
+								Lorem ipsum dolor sit amat velum
+							</div>
+							<div class="news_resume">
+								É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao examinar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, ao contrário de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um português legível.
+							</div>
+						</a>
+					</article>
+
+					<article>
+						<a href="">
+							<div class="news_data">
+								<div class="news_posted_at">21 ABR 21</div>
+								<div class="news_comments">2</div>
+							</div>
+							<div class="news_thumbnail">
+								<img src="assets/images/dr.jpg" />
+							</div>
+							<div class="news_title">
+								Lorem ipsum dolor sit amat velum
+							</div>
+							<div class="news_resume">
+								É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao examinar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, ao contrário de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um português legível.
+							</div>
+						</a>
+					</article>
+
+					<article>
+						<a href="">
+							<div class="news_data">
+								<div class="news_posted_at">21 ABR 21</div>
+								<div class="news_comments">2</div>
+							</div>
+							<div class="news_thumbnail">
+								<img src="assets/images/dr.jpg" />
+							</div>
+							<div class="news_title">
+								Lorem ipsum dolor sit amat velum
+							</div>
+							<div class="news_resume">
+								É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao examinar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, ao contrário de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um português legível.
+							</div>
+						</a>
+					</article>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- ÁREA LATERAL -->
+		<aside> <!--MOTORES DE BUSCA SABERÃO QUE É UMA ÁREA LATERAL-->
+			<div class="widget">
+				<div class="widget_title">
+					<div class="widget_title_text">Departamentos</div>
+					<div class="widget_title_bar"></div>
+				</div>
+				<div class="widget_body">
+					<div class="widget_body_departaments">
+						<a href="">
+							<div class="square"></div>
+						</a>
+					</div>
+					<div class="widget_body_departaments">
+						<a href="">
+							<div class="square"></div>
+						</a>
+					</div>
+					<div class="widget_body_departaments">
+						<a href="">
+							<div class="square"></div>
+						</a>
+					</div>
+					<div class="widget_body_departaments">
+						<a href="">
+							<div class="square"></div>
+						</a>
+					</div>
+					<div class="widget_body_departaments">
+						<a href="">
+							<div class="square"></div>
+						</a>
+					</div>
+					<div class="widget_body_departaments">
+						<a href="">
+							<div class="square"></div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+			<div class="widget">
+				<div class="widget_title">
+					<div class="widget_title_text">Marque uma Consulta</div>
+					<div class="widget_title_bar"></div>
+				</div>
+				<div class="widget_body">
+					<article>
+						<div class="news_resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+						<div class="bar"></div>
+						<div class="news_resume"><img src="assets/images/telefone.png" alt="telefone"> pelo telefone: 0800 XX XXXX</div>
+						<div class="bar"></div>
+						<div class="news_resume"><img src="assets/images/email.png" alt="email"> por e-mail: <a href="mailto:"seuemail@outlook.com>seuemail@outlook.com</a></div>
+						<div class="bar"></div>
+						<div class="news_resume"><img src="assets/images/agenda.png" alt="agenda"> ou agente&nbsp; <a href="">aqui</a> &nbsp;mesmo pelo nosso site</div>
+						<div class="bar"></div>
+					</article>					
+				</div>
+			</div>
+		</aside>
+	</div>
+</section>
+
+<footer>
+	<div class="container flexColumn">
+		<div class="footer_menu">
+			<div class="fm_1">
+				<a href="">
+					<h1>Plano de Saúde</h1>
+					<h2>Aqui no MediaCenter nós temos individual →</h2>
+				</a>
+			</div>
+			<div class="fm_2">
+				<a href="">
+					<h1>Registros Médicos</h1>
+					<h2>Aqui no MediaCenter nós temos individual →</h2>
+				</a>
+			</div>
+			<div class="fm_3">
+				<a href="">
+					<h1>Pague Online</h1>
+					<h2>Aqui no MediaCenter nós temos individual →</h2>
+				</a>
+			</div>
+		</div>
+
+		<div class="footer_area">
+			<div class="footer_areaitem">
+				<div class="widget">
+					<div class="widget_title">
+						<div class="widget_title_text">Clínica MediaCenter</div>
+						<div class="widget_title_bar"></div>
+					</div>
+					<div class="widget_body">
+						<p>Mauris adipiscing mauris fringilla turpis intedum sed pulvinar nisi malesuada individual.</p>
+						
+						<div class="widget_address">
+							<div class="address">
+								<p>Clínica MediCenter</p>
+								<p>Av. Imaginária, 33</p>
+								<p>Bairro Qualquer</p>
+								<p>CEP - 55555-555</p>
+							</div>
+							<div class="number">
+								<p>&nbsp;</p>
+								<p>+55 (55) 5555-5555</p>
+								<p>+55 (55) 1234-5678</p>
+								<p> <a href="">medicenter@email.com</a></p>
+							</div>
+						</div>
+						<div class="socialmedia">
+							<div class="facebook"><img src="" alt=""></div>
+							<div class="twitter"><img src="" alt=""></div>
+							<div class="calendar"><img src="" alt=""></div>
+							<div class="email"><img src="" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer_areaitem">
+				<div class="widget">
+					<div class="widget_title">
+						<div class="widget_title_text">Últimas Postagens</div>
+						<div class="widget_title_bar"></div>
+					</div>
+					<a href="">
+						<div class="widget_body">
+							<div class="widget_desc">
+								<div class="arrow">→</div>
+								<div class="widget_post">Mauris adipiscing mauris fringilla turpis intedum sed pulvinar nisi malesuada.</div>
+							</div>	
+							<div class="widget_date">6 anos atrás</div>
+						</div>
+					</a>
+					<a href="">
+						<div class="widget_body">
+							<div class="widget_desc">
+								<div class="arrow">→</div>
+								<div class="widget_post">Mauris adipiscing mauris fringilla turpis intedum sed pulvinar nisi malesuada.</div>
+							</div>	
+							<div class="widget_date">6 anos atrás</div>
+						</div>
+					</a>
+					<a href="">
+						<div class="widget_body">
+							<div class="widget_desc">
+								<div class="arrow">→</div>
+								<div class="widget_post">Mauris adipiscing mauris fringilla turpis intedum sed pulvinar nisi malesuada.</div>
+							</div>	
+							<div class="widget_date">6 anos atrás</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="footer_areaitem">
+				<div class="widget">
+					<div class="widget_title">
+						<div class="widget_title_text">Últimos Twitters</div>
+						<div class="widget_title_bar"></div>
+					</div>
+					<a href="">
+						<div class="widget_body">
+							<div class="widget_desc">
+								<div class="arrow">→</div>
+								<div class="widget_post color">Mauris adipiscing mauris fringilla turpis intedum sed pulvinar nisi malesuada.</div>
+							</div>	
+							<div class="widget_date">4 anos atrás</div>
+						</div>
+					</a>
+					<a href="">
+						<div class="widget_body">
+							<div class="widget_desc">
+								<div class="arrow">→</div>
+								<div class="widget_post color">Mauris adipiscing mauris fringilla turpis intedum sed pulvinar nisi malesuada.</div>
+							</div>	
+							<div class="widget_date">4 anos atrás</div>
+						</div>
+					</a>
+					<a href="">
+						<div class="widget_body">
+							<div class="widget_desc">
+								<div class="arrow">→</div>
+								<div class="widget_post color">Mauris adipiscing mauris fringilla turpis intedum sed pulvinar nisi malesuada.</div>
+							</div>	
+							<div class="widget_date">4 anos atrás</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer_copy">
+			Copyright - Todos os direitos reservados
+		</div>
+
+	</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
